@@ -5,8 +5,10 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  /* box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 100vh; */
 }
 
 .app {
@@ -15,8 +17,8 @@ body {
   align-items: center;
   padding: 2em;
   margin: 2rem 20 rem;
-  background-color: purple;
-  /* background-color: #E5E5E5; */
+  /* background-color: purple; */
+  background-color: #E5E5E5;
 }
 
 nav {
@@ -32,9 +34,10 @@ nav {
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
   background-color: #F55A5A;
   color: white; */
+  width: 550px;
   padding: 0;
   margin: 0;
-  width: 100%;
+  /* width: 100%; */
   background: #F55A5A;
   color: white;
   height: 10%;
@@ -66,67 +69,103 @@ nav {
 
 .cards-list {
   display: flex;
-  flex-wrap: nowrap;
-  gap: 20px;
-  overflow-x: auto;
+  flex-direction: column;
+  justify-content: center;
+  width: 550px;
+  background-color: white;
+  /* flex-wrap: nowrap; */
+  /* overflow-x: auto; */
+  padding-bottom: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+img {
+    height: 180px;
+    width: 125px;
+    border-radius: 5px;
 }
 
 .card {
-  width: 175px;
-  font-size: 12px;
-  flex: 0 0 auto;
+  padding: 0;
+  margin: 36px auto 0 auto;
+  /* font-size: 12px; */
+  /* flex: 0 0 auto; */
   display: flex;
-  flex-direction: column;
-  position: relative;
-  border-radius: 5px;
-  border-style: none;
+  /* justify-content: flex-start; */
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+  /* align-items: flex-start; */
+  /* flex-direction: row; */
+  /* position: relative; */
+  
+  
+  /* border-radius: 5px;
+  border-style: none; */
 }
 
-.card--image {
-  /* width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 9px;
-  margin-bottom: 9px; */
-  width: 126px;
-  height: 168px;
-  border-radius: 5px;
+.card--info {
+  justify-content: center;
+  padding-top: 10px;
+  height: fit-content;
+  margin: 0 19px;
+  color: #2B283A;
 }
 
-.pin {
-  background-color: #F55A5A;
+.card--content {
+  display: flex;
+  align-items: center;
+  height: 12px;
+}
+
+.fa-map-marker-alt {
+  color: #F55A5A;
+  /* background-color: white; */
   width: 7px;
   height: 9.55px;
 }
 
-.pin--location {
+.card--pin-location {
   font-size: 10.24px;
   line-height: 12px;
   letter-spacing: 0.17em;
   color: #2B283A;
+  /* padding-left: 10px; */
+  margin: 0 12px 0 8px;
+  text-transform: uppercase;
 }
 
-.pin--link {
+/* .card--pin-link {
   color: #918E9B;
   font-size: 10.24px;
-  line-height: 12px;
+  /* line-height: 12px;
+  padding-left: 20px;
+} */
+
+a:link,
+a:visited {
+  font-size: 10.24px;    
+  color: #918E9B;
 }
 
-.card--location {
+.card--info-location {
   font-weight: bold;
   font-size: 25px;
   line-height: 30px;
+  margin: 12px 0 15px 0;
   color: #2B283A
 }
 
-.card--date {
+.card--info-date {
   font-weight: bold;
   font-size: 10.24px;
   line-height: 12px;
   color: #2B283A;
+  padding-top: 6px;
+  margin-bottom: 9px;
 }
 
-.card--text {
+.card--info-text {
   color: #2B283A;
   font-size: 10.24px;
   line-height: 150%;
