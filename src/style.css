@@ -170,3 +170,11 @@ a:visited {
   font-size: 10.24px;
   line-height: 150%;
 }
+
+.card--info-beer {
+  font-weight: bold;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+  padding-top: 2px;
+}
