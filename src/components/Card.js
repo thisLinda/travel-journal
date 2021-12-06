@@ -1,7 +1,7 @@
 export default function Card(props) {
     return (
         <div className='card'>
-            <img src={`./assets/${props.imageUrl}`} alt='glass of beer' />
+            <img src={`./assets/${props.imageUrl}`} alt={`glass of ${props.beer} beer`} />
             <div className='card--info'>
                 <div className='card--content'>
                     <i class="fas fa-map-marker-alt"></i>
