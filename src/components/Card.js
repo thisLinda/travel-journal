@@ -4,7 +4,7 @@ export default function Card(props) {
             <img src={`./assets/${props.imageUrl}`} alt={`glass of ${props.beer} beer`} />
             <div className='card--info'>
                 <div className='card--content'>
-                    <i class="fas fa-map-marker-alt"></i>
+                    <i className="fas fa-map-marker-alt"></i>
                     <h2 className='card--pin-location'>{props.location}</h2>
                     <a href={props.googleMapsUrl}
                         className='card--pin-link'
