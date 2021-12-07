@@ -1,6 +1,6 @@
 # Scrimba React (free!) Course -- Section 2 Solo Project
 
-Check it out! I strayed a bit from the "travel journal" target, expanded the project to include alt tags using props, and added props with links to drive the user to beer websites. 🍻  [Travel-Journal: 2021 beer pics with scenic backdrops]().
+Check it out! I strayed a bit from the "travel journal" target, expanded the project to include alt tags using props, and added props with links to drive the user to beer websites. 🍻  [Travel-Journal: 2021 beer pics with scenic backdrops](https://main.dor2xigmfvd2h.amplifyapp.com/).
 
 https://scrimba.com/
 
