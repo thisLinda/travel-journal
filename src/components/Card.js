@@ -16,7 +16,9 @@ export default function Card(props) {
                 <h3 className='card--info-date'>{props.moyy}</h3>
                 <p className='card--info-text'>{props.description}
                 </p>
-                <p className='card--info-beer'>The beer: {props.beer}</p>
+                <p className='card--info-beer'> 
+                The beer:<a href={props.beerUrl} target='_blank'> {props.beer}</a>
+                </p>
             </div>
         </div>
     )

@@ -94,15 +94,22 @@ img {
   line-height: 12px;
   letter-spacing: 0.17em;
   color: #2B283A;
-  padding: 0 12px 0 8px;
+  padding: 0 12px 0 4px;
   text-transform: uppercase;
 }
 
-a:link,
-a:visited {
+a {
+  text-decoration: none;
+  color: #a9a7ad;
+}
+
+a:link {
   font-size: 10.24px;
   line-height: 12px;  
-  color: #918E9B;
+}
+
+a:hover {
+  color: #f48a8a;
 }
 
 .card--info-location {
